@@ -1,0 +1,7 @@
+{
+    "goblin": { 
+        "str": 10, "dex": 10, "con": 8, "int": 6, "wis": 4, "cha": 2,
+        "armor_max_tier": 1,
+        "weapon_max_tier": 1 
+    }
+}

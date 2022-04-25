@@ -1,0 +1,7 @@
+{
+    "armors": {
+        "head": [
+            { "id": "open_helmet", "name": "open helmet", "tier": 1, "base_absorb": 1 }
+        ]
+    }
+}

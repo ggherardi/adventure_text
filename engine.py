@@ -54,7 +54,6 @@ class Engine:
         self.tick()
                         
     def tick(self):
-        print("tick")
         self.tick_thread = threading.Timer(interval=3, function=self.tick)
         self.tick_thread.start()
         
@@ -78,7 +77,6 @@ class Engine:
             return
         input = input.lower()
         tokens = self.get_tokens(input)
-        #replace with dictionary the following statements
         command_token = tokens[0]
         command = self.dictionary.get_term("commands", command_token)
         if(command):
