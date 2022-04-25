@@ -1,0 +1,34 @@
+[{
+    "id": 1,
+    "description": "You see a round square with a fountain in the middle. You can see four roads heading to the main gates of the town.",
+    "exits":{
+        "north": 2,
+        "east": 3,
+        "south": 4,
+        "west": 5
+    }
+},{
+    "id": 2,
+    "description": "This is the north room",
+    "exits":{
+        "south": 1
+    }
+},{
+    "id": 3,
+    "description": "This is the east room",
+    "exits":{
+        "west": 1
+    }
+},{
+    "id":4,
+    "description": "This is the south room",
+    "exits":{
+        "north": 1
+    }
+},{
+    "id": 5,
+    "description": "This is the west room",
+    "exits":{
+        "east": 1
+    }
+}]

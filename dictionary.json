@@ -1,0 +1,23 @@
+{
+    "directions": {
+        "north": "north",
+        "n": "north",
+        "south": "south",
+        "s": "south",
+        "east": "east",
+        "e": "east",
+        "west": "west",
+        "w": "west"
+    },
+    "commands": {
+        "n": { "class": "action_handler", "method": "move", "parameters": "north" },
+        "north": { "class": "action_handler", "method": "move", "parameters": "north" },
+        "e": { "class": "action_handler", "method": "move", "parameters": "east" },
+        "east": { "class": "action_handler", "method": "move", "parameters": "east" },
+        "s": { "class": "action_handler", "method": "move", "parameters": "south" },
+        "south": { "class": "action_handler", "method": "move", "parameters": "south" },
+        "w": { "class": "action_handler", "method": "move", "parameters": "west" },
+        "west": { "class": "action_handler", "method": "move", "parameters": "west" },
+        "go": { "class": "action_handler", "method": "move" }
+    }
+}
